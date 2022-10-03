@@ -92,9 +92,7 @@ button:hover, button:focus {
   grid-template-rows: 300px 300px;
   grid-gap: 20px;
 }
-.grid__item {
-  background-color: lightblue;
-}
+
 body {
   background-color: #97E2E7;
 }
@@ -305,7 +303,6 @@ body {
 #contact_info {
   text-align: left;
 }
-.pokemon-table {
-
-
+.work--grid {
+  display: inline-grid;
 }

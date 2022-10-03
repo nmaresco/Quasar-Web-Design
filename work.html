@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
 
@@ -35,20 +36,32 @@
   </header>
 
   <!-- Main content -->
-  <section id="container--work">
-     <h1>Work</h1>
-     <div class="grid">
-        <!-- Grid items will live here -->
-       <div class="grid__item">
-         <h2>Mobile web app</h2>
-         <p>
-            Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-         </p>
-         <a href="#">See project on GitHub</a>
-       </div>
-     </div>
-  </section>
+  <div class="work--wrapper">
+    <div class="work--grid">
+        <section id="container--work">
+           <h1>Work</h1>
+           <div class="grid">
+              <!-- Grid items will live here -->
+             <div class="grid__item" id="musicStore">
+               <h2>Music Download Site</h2>
+               <p>
+                  Within this project, I was responsible for the frontend. It’s written in HTML and CSS.
+               </p>
+               <a href="https://github.com/nmaresco/Quasar-Web-Design.git">See project on GitHub</a>
+               <img src="img/MusicStore.png" height="125px" width="225px">
+             </div>
 
+             <div class="grid__item" id="musicStore">
+               <h2>Pokedex Application</h2>
+               <p>
+                  Within this project, I was responsible for the front and backend. It’s written in Javascript and Bootstrap.
+               </p>
+               <a href="https://github.com/nmaresco/Simple-JS-App.git">See project on GitHub</a>
+               <img src="img/Pokedex.png" height="125px" width="225px">
+             </div>
+           </div>
+    </div>
+  </div>
   <!-- Footer with links to social media profiles -->
   <footer class="page-footer">
     <p>Find me on</p>
